@@ -50,7 +50,11 @@
         
 
       </article>
-      <article class="seccion" id="tab3">
+      <article class="" id="tab3">
+
+      <div class="images-tab3"></div>
+      <div class="images-tab3"></div>
+      <div class="images-tab3"></div>
       
 
       </article>

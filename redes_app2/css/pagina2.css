@@ -118,6 +118,7 @@
     background: rgba(46, 204, 113 , 0.8) ;
     border-radius: 15px;
     font-size: 20px;
+    
   }
   
   
@@ -240,6 +241,24 @@
       left: 35%;
 
  }
+ .images-tab3{
+  
+   height: 40vh;
+   width: 50%;
+   position: relative;
+   left: 25%;
+   background: url(../img/ejercicio1.jpg) no-repeat;
+   background-size: 100%;
+   margin: 2px;
+
+ }
+
+ #tab3{
+   background: rgba(46, 204, 113 , 0.8);
+   border-radius: 15px;
+ }
+
+ 
   .registrar{
     width: 40%;
     margin-left: 30%;
