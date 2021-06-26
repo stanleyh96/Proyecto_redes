@@ -12,8 +12,7 @@
   <nav class="menu">
     <ul class="tabs">
       <li class="dropdown"><a href="#tab1"><i class="fas fa-home"></i> HOME</a></li>
-      <li><a href="#tab2"><i class="fas fa-users"></i> Nosotros</a></li>
-      
+      <li><a href="#tab2"><i class="fas fa-users"></i> Nosostros</a></li>
       <li><a href="#tab3"><i class="fas fa-running"></i> Ejercicios</a></li>
     </ul>
     
@@ -23,9 +22,9 @@
   <section class="container">
     <div class="container-registros">
       <article class="seccion" id="tab1">
-        <div>
-          <H2 id="lista-cliente"><i class="fas fa-users"></i>Una vida saludable </H2>
-          <div><img src="" alt=""></div>
+        <div id="container-home">
+          <H2 id="lista-cliente"></i>"Una vida saludable y natural para todos" </H2>
+          
         </div>
         
         
@@ -36,48 +35,23 @@
         <!------------------------------------------------------------>
       </article>
       <article class="seccion" id="tab2">
-        <H2 id="encabezado-vuelos"><i class="fas fa-plane-departure"></i> Registro de Vuelos</H2>
-        <div id="vuelos" class="container-encabezado">
-          <h2 class="encabezado">N° Vuelo</h2>
-          <h2 class="encabezado">Origen</h2>
-          <h2 class="encabezado">destino</h2>
+        <p id="texto-tab2">Somos una comunidad que vela por la naturaleza  la salud de cada persona que lo necesite dando consejos ayuda y reuniones para capacitarse y lograr motivarse para ser activo,comer saludable
+                           y llenar de energia nuestra vida
+        </p>
+        <div id="container-img-tab2">
         </div>
-        <div id="container-lista-vuelos" class="container-table">
-          
-        </div >
-        <H2 id="registrar"><i class="fas fa-plane-arrival"></i> Agregar Vuelo</H2>
-        <form action="insertarvuelos.php" method="post" id="encabezado-add-container" class="container-encabezado">
-          <h2 id="encabezado-add" class="encabezado">Origen</h2>
-          <input name="origen" type="number" class="container-input" placeholder="Ingrese pais de origen" >
-          <h2 id="encabezado-add" class="encabezado">destino</h2>
-          <input name="destino" type="number" class="container-input" placeholder="Ingrese pais de destino" >
-          <button type="submit" class="registrar">AGREGAR</button>
-        </form>
+        
+
+        <div class="container-icons">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter-square"></i>
+      </div>
+        
 
       </article>
       <article class="seccion" id="tab3">
-        <!--<i class="fas fa-hand-holding-usd"></i>-->
-        <H2><i class="fas fa-ticket-alt"></i> Boletos</H2>
-        <div class="container-encabezado">
-          <h2 id="encabezado-boletos" class="encabezado">N° Boleto</h2>
-          <h2 id="encabezado-boletos" class="encabezado">N° Vuelo</h2>
-          <h2 id="encabezado-boletos" class="encabezado">DUI</h2>
-          <h2 id="encabezado-boletos" class="encabezado">Nombre</h2>
-          <h2 id="encabezado-boletos" class="encabezado">Destino</h2>
-        </div>
-        <div class="container-table-boletos">
-         
-        </div>
-        <H2 id="registrar"><i class="fas fa-plane-arrival"></i> Vender boleto</H2>
-        <form action="comprarvuelo.php" method="post" id="encabezado-add-container" class="container-encabezado">
-          <h2 id="encabezado-add" class="encabezado">N°vuelo</h2>
-          <input name="vuelo" type="number" class="container-input" placeholder="Ingrese numero vuelo">
-          <h2 id="encabezado-add" class="encabezado">DUICliente</h2>
-          <input name="dui" type="number" class="container-input" placeholder="Ingrese DUI">
-          <h2 id="encabezado-add" class="encabezado">N°tarjeta</h2>
-          <input name="tarjeta" type="number" class="container-input" placeholder="Ingrese numero de tarjeta">
-          <button type="submit" class="registrar">AGREGAR</button>
-        </form>
+      
 
       </article>
     </div>

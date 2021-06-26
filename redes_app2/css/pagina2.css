@@ -47,7 +47,7 @@
   
   .menu ul li a {
     display: inline-block;
-    color: rgb(253, 254, 254   );
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -83,6 +83,11 @@
   .menu .dropdown-content a:hover {
     background-color:#f1f1f1;
   }
+  #tab1{
+    background: url(../img/home.jpg) no-repeat;
+      background-size: 100%;
+    
+  }
   
   .menu .dropdown:hover .dropdown-content {
     display: block;
@@ -91,9 +96,17 @@
     background:  #9E9E9E ;
   }
   
+  #container-home{
+    
+    width: 50%;
+    height: 84vh;
+
+  }
+
   .container{
     width: 100%;
     height: 65vh;
+    
   }
   .container-registros{
     width: 94%;
@@ -167,7 +180,10 @@
     font-size: 19px;
     color: black;
   }
-  
+  #lista-cliente{
+    left: 30%;
+    top: 10%;
+  }
   #encabezado-add-container{
     border: 1px solid black;
     border-radius: 10px;
@@ -188,36 +204,48 @@
     left: 2%;
     font-size: 17px;
   }
-  .container-boleto{
-    text-align: center;
-  }
-  .container-cliente{
-    text-align: center;
-    margin-left: 20px;
-    position: relative;
-    left: 30%;
-  }
-  .container-input{
-    width: 75%;
-    height: 13%;
-    border-radius: 10px;
-    outline: none;
-    text-align: center;
-    margin-bottom:10% ;
-    position: relative;
-    left: 15%;
-    top: 5%;
-  }
+  
+ #texto-tab2{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   font-size: 30px;
+   text-align: left;
+   text-transform: uppercase;
+   left: 50%;
+   text-shadow: 3px 3px 3px #000;
+   
+   width: 90%;
+   margin-left: 5%;
+   margin-top: 7%;
+
+
+ }
+ .container-icons{
+   color: rgb(255, 255, 255);
+   text-align: center;
+   font-size: 40px;
+   width: 30%;
+   left: 35%;
+   top: 92%;
+   position: absolute;
+ }
+ #container-img-tab2{
+  border-radius: 15px;
+   width: 30%;
+   height: 30vh;
+   background: url(../img/natural.jpg) no-repeat;
+      background-size: 100%;
+      position: absolute;
+      left: 35%;
+
+ }
   .registrar{
     width: 40%;
     margin-left: 30%;
     margin-bottom: 10%;
     border-radius: 7px;
     outline: none;
-  }
-  #container-lista-vuelos{
-    grid-template-columns:repeat(3,30%);
-    left: 3%;
-    top: 20%;
     
   }
+ 
